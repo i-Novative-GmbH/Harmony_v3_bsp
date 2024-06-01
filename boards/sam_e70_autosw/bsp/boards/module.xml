@@ -10,16 +10,13 @@
         <Board name="PIC32CX BZ2 Curiosity" processor="PIC32CX1012BZ25048" config="pic32cx_bz2_curiosity"/>
         <Board name="PIC32CX SG6X Curiosity Ultra" processor="PIC32CX1025SG60128" config="pic32cx_sg6x_curiosity_ultra"/>
         <Board name="WBZ451 Curiosity" processor="WBZ451" config="wbz451_curiosity"/>
-        <Board name="WBZ451HPE Curiosity" processor="WBZ451H" config="wbz451hpe_curiosity"/>
         <Board name="WBZ351 Curiosity" processor="WBZ351" config="wbz351_curiosity"/>
         <Board name="WBZ351 Curiosity" processor="PIC32CX5109BZ31048" config="pic32cx_bz3_curiosity"/>
         <Board name="WBZ450 Curiosity" processor="WBZ450" config="wbz450_curiosity"/>
         <Board name="PIC32CK GC01 Curiosity Ultra" processor="PIC32CK2051GC01144" config="pic32ck_gc01_curiosity_ultra"/>
         <Board name="PIC32CK SG01 Curiosity Ultra" processor="PIC32CK2051SG01144" config="pic32ck_sg01_curiosity_ultra"/>
-        <Board name="PIC32CX SG41 Curiosity Ultra" processor="PIC32CX1025SG41128" config="pic32cx_sg41_curiosity_ultra"/>
         <Board name="PIC32CZ CA90 Curiosity Ultra" processor="PIC32CZ8110CA90208" config="pic32cz_ca90_curiosity_ultra"/>
         <Board name="PIC32CZ CA80 Curiosity Ultra" processor="PIC32CZ8110CA80208" config="pic32cz_ca80_curiosity_ultra"/>
-        <Board name="PIC32CZ CA70 Curiosity Ultra" processor="PIC32CZ2051CA70144" config="pic32cz_ca70_curiosity_ultra"/>
         <Board name="PIC32MM Curiosity" processor="PIC32MM0064GPL036" config="pic32mm_curiosity"/>
         <Board name="PIC32MM USB Curiosity" processor="PIC32MM0256GPM064" config="pic32mm_usb_curiosity"/>
         <Board name="PIC32MX274 XLP Starter Kit" processor="PIC32MX274F256D" config="pic32mx_xlp_sk"/>
@@ -51,20 +48,14 @@
         <Board name="PIC32MZ EF Curiosity 2.0" processor="PIC32MZ2048EFM144" config="pic32mz_ef_curiosity_v2"/>
         <Board name="PIC32MZ W1 Curiosity" processor="PIC32MZ1025W104132" config="pic32mz_w1_curiosity"/>
         <Board name="PIC32MZ W1 Curiosity" processor="WFI32E01" config="wfi32e_curiosity"/>
-        <Board name="PIC32MZ W1 Curiosity" processor="WFI32E02" config="pic32mz_w1_ff_curiosity"/>
-        <Board name="PIC32MZ W1 Curiosity" processor="PIC32MZ2051W104132" config="pic32mz_w1_curiosity"/>
-        <Board name="PIC32MZ W1 Curiosity" processor="WFI32E03" config="wfi32e_curiosity"/>
         <Board name="PIC32MZ W1 WFI32IoT" processor="PIC32MZ1025W104132" config="pic32mz_w1_wfiiot"/>
-        <Board name="PIC32MZ W1 WFI32IoT" processor="PIC32MZ2051W104132" config="pic32mz_w1_wfiiot"/>
         <Board name="PIC32MZ W1 WFI32IoT" processor="WFI32E01" config="wfi32e_iot"/>
         <Board name="SAM 9X60 Evaluation Kit" processor="SAM9X60" config="sam_9x60_ek"/>
         <Board name="SAM 9X60 Curiosity" processor="SAM9X60D1G" config="sam_9x60_curiosity"/>
         <Board name="SAM 9X75 Evaluation Board" processor="SAM9X75" config="sam_9x75_eb"/>
-		<Board name="SAM 9X75 Curiosity" processor="SAM9X75D2G" config="sam_9x75_curiosity"/>
         <Board name="SAM A5D2 Xplained Ultra" processor="ATSAMA5D27" config="sam_a5d2_xult"/>
         <Board name="SAM A5D27 SOM1 Kit1" processor="ATSAMA5D27CD1G" config="sam_a5d27_som1_ek"/>
         <Board name="SAM A5D27 WLSOM1 Kit1" processor="ATSAMA5D27CLD2G" config="sam_a5d27_wlsom1_ek1"/>
-		<Board name="SAM A5D29 Curiosity" processor="ATSAMA5D29" config="sam_a5d29_curiosity"/>
         <Board name="SAM A7G5 Evaluation Kit" processor="SAMA7G54" config="sam_a7g5_ek"/>
         <Board name="SAM C21 Xplained Pro" processor="ATSAMC21J18A" config="sam_c21_xpro"/>
         <Board name="SAM C21N Xplained Pro" processor="ATSAMC21N18A" config="sam_c21n_xpro"/>
