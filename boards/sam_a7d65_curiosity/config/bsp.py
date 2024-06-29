@@ -1,3 +1,4 @@
+# coding: utf-8
 """*****************************************************************************
 * Copyright (C) 2024 Microchip Technology Inc. and its subsidiaries.
 *
@@ -22,31 +23,31 @@
 *****************************************************************************"""
 
 def instantiateComponent(bspComponent):
-    # LED_RED: PC14
-    Database.setSymbolValue("core", "PIN_79_FUNCTION_TYPE", "LED_AH")
-    Database.setSymbolValue("core", "PIN_79_FUNCTION_NAME", "LED_RED")
-    Database.setSymbolValue("core", "PIN_79_DIR", "Out")
-    Database.setSymbolValue("core", "PIN_79_LAT", "Low")
+    # LED_RED: PB17
+    Database.setSymbolValue("core", "PIN_204_FUNCTION_TYPE", "LED_AH")
+    Database.setSymbolValue("core", "PIN_204_FUNCTION_NAME", "LED_RED")
+    Database.setSymbolValue("core", "PIN_204_DIR", "Out")
+    Database.setSymbolValue("core", "PIN_204_LAT", "Low")
 
-    # LED_GREEN: PC21
-    Database.setSymbolValue("core", "PIN_50_FUNCTION_TYPE", "LED_AH")
-    Database.setSymbolValue("core", "PIN_50_FUNCTION_NAME", "LED_GREEN")
-    Database.setSymbolValue("core", "PIN_50_DIR", "Out")
-    Database.setSymbolValue("core", "PIN_50_LAT", "Low")
+    # LED_GREEN: PB15
+    Database.setSymbolValue("core", "PIN_205_FUNCTION_TYPE", "LED_AH")
+    Database.setSymbolValue("core", "PIN_205_FUNCTION_NAME", "LED_GREEN")
+    Database.setSymbolValue("core", "PIN_205_DIR", "Out")
+    Database.setSymbolValue("core", "PIN_205_LAT", "Low")
 
-    # LED_BLUE: PC20
-    Database.setSymbolValue("core", "PIN_48_FUNCTION_TYPE", "LED_AH")
-    Database.setSymbolValue("core", "PIN_48_FUNCTION_NAME", "LED_BLUE")
-    Database.setSymbolValue("core", "PIN_48_DIR", "Out")
-    Database.setSymbolValue("core", "PIN_48_LAT", "Low")
+    # LED_BLUE: PA21
+    Database.setSymbolValue("core", "PIN_327_FUNCTION_TYPE", "LED_AH")
+    Database.setSymbolValue("core", "PIN_327_FUNCTION_NAME", "LED_BLUE")
+    Database.setSymbolValue("core", "PIN_327_DIR", "Out")
+    Database.setSymbolValue("core", "PIN_327_LAT", "Low")
 
-    #USER_BUTTON: PC09
-    Database.setSymbolValue("core", "PIN_106_FUNCTION_TYPE", "SWITCH_AL")
-    Database.setSymbolValue("core", "PIN_106_FUNCTION_NAME", "USER_BUTTON")
-    Database.setSymbolValue("core", "PIN_106_PU", "True")
-    Database.setSymbolValue("core", "PIN_106_DIR", "")
+    #SWITCH USER_BUTTON: PC10
+    Database.setSymbolValue("core", "PIN_146_FUNCTION_TYPE", "SWITCH_AL")
+    Database.setSymbolValue("core", "PIN_146_FUNCTION_NAME", "USER_BUTTON")
+    Database.setSymbolValue("core", "PIN_146_PU", "True")
+    Database.setSymbolValue("core", "PIN_146_DIR", "")
 
-    BSP_NAME = "sam_9x75_curiosity"
+    BSP_NAME = "sam_a7d65_curiosity"
 
     pinAttributes = [{"attrib":"type", "symbol":"BSP_CUSTOM_TYPE", "label":"Type Name"},
         {"attrib":"mode", "symbol":"BSP_CUSTOM_MODE", "label":"Mode"},
@@ -67,7 +68,3 @@ def instantiateComponent(bspComponent):
 
 
     execfile(Variables.get("__BSP_DIR") + "/boards/config/bsp_common.py")
-
-
-
-
