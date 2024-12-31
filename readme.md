@@ -18,7 +18,7 @@ Refer to the following links for release notes, training materials, and interfac
 reference information.
 
 - [Release Notes](./release_notes.md)
-- [MPLAB® Harmony License](mplab_harmony_license.md)
+- [Microchip SLA](Microchip_SLA001.md)
 
 # Contents Summary
 
@@ -98,6 +98,19 @@ reference information.
 | 72 | wbz451hpe_curiosity | [WBZ451HPE Curiosity Developement board]() | PIC32CX1012BZ25048 |
 | 73 | sam_a7d65_curiosity | [SAMA7D65 Curiosity Board](https://www.microchip.com/en-us/development-tool/EA89C15A) | SAMA7D65 |
 | 74 | wbz653_curiosity | [WBZ653 Curiosity Board]() | WBZ653 |
+| 75 | pic32mk_mcm_dim_mc | [PIC32MK MCM Motor Control DIM](https://www.microchip.com/en-us/development-tool/EV49S83A) | PIC32MK1024MCM100 |
+| 76 | pic32mk_mca_dim_mc | [PIC32MK MCA Motor Control DIM](https://www.microchip.com/en-us/development-tool/EV10R52A) | PIC32MK0128MCA048 |
+| 77 | sam_c21_dim_mc | [SAMC21 Motor Control DIM](https://www.microchip.com/en-us/development-tool/EV74G56A) | ATSAMC21J18A |
+| 78 | sam_e54_dim_mc | [ATSAME54 Motor Control DIM](https://www.microchip.com/en-us/development-tool/EV24X01A) | ATSAME54P20A |
+| 79 | sam_e70_dim_mc | [ATSAME70 Motor Control DIM](https://www.microchip.com/en-us/development-tool/EV87E90A) | ATSAME70Q21B |
+| 80 | pic32cm_mc00_dim_mc | [PIC32CM MC00 Motor Control DIM](https://www.microchip.com/en-us/development-tool/MA320211) | PIC32CM1216MC00048 |
+| 81 | pic32cz_ca70_curiosity_ultra | [PIC32CZ CA70 Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ea60e74a) | PIC32CZ2051CA70144 |
+| 82 | pic32cz_ca80_curiosity_ultra | [PIC32CZ CA80 Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ev51s73a) | PIC32CZ8110CA80208 |
+| 83 | pic32cz_ca90_curiosity_ultra | [PIC32CZ CA90 Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ev16w43a) | PIC32CZ8110CA90208 |
+| 84 | pic32ck_gc01_curiosity_ultra | [PIC32CK GC01 Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ev44p93a) | PIC32CK2051GC01144 |
+| 85 | pic32ck_sg01_curiosity_ultra | [PIC32CK SG01 Curiosity Ultra](https://www.microchip.com/en-us/development-tool/ev33a17a) | PIC32CK2051SG01144 |
+| 86 | pic32cm_gc00_curiosity_pro | [PIC32CM GC00 Curiosity Pro]() | PIC32CM5112GC00100 |
+| 87 | pic32cm_sg00_curiosity_pro | [PIC32CM GC00 Curiosity Pro]() | PIC32CM5112SG00100 |
 ____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/bsp/blob/master/mplab_harmony_license.md)
